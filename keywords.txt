@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map For Matrix
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DCC_Decoder KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SetupDecoder KEYWORD2
+SetupMonitor KEYWORD2
+SetIdlePacketHandler KEYWORD2
+SetResetPacketHandler KEYWORD2
+SetRawPacketHandler KEYWORD2
+SetBasicAccessoryDecoderPacketHandler KEYWORD2
+SetExtendedAccessoryDecoderPacketHandler KEYWORD2
+SetBaselineControlPacketHandler KEYWORD2
+SetDecodingEngineCompletionStatusHandler KEYWORD2
+ReadCV KEYWORD2
+WriteCV KEYWORD2
+MakePacketString KEYWORD2
+ResultString KEYWORD2
+loop KEYWORD2
+Address KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
