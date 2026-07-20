@@ -377,7 +377,7 @@ void DCC_Decoder::State_Execute()
             }else{            
                 if( gCV[kCV_ConfigurationData1] & 0x02 )  // Bit 1 of CV29: 0=14speeds, 1=28Speeds
                 {
-                    speedBits = ((speedBits << 1 ) & (cBit ? 1 : 0)) - 3;   // speedBits = 1..28
+                    speedBits = ((speedBits << 1 ) | (cBit ? 1 : 0)) - 3;   // speedBits = 1..28
                 }else{
                     speedBits -= 1;                                         // speedBits = 1..14
                 }
